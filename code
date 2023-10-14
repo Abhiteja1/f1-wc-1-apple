@@ -1,0 +1,39 @@
+<nav id="navbar">
+    <ul class="nav-list">
+    <li class="icons"><a href="#"><img src="images/globalnav_apple_image__b5er5ngrzxqq_large.svg.svg" alt="apple-log"></a></li>
+    <li><a href="#">Store</a></li>
+    <li><a href="#">Mac</a></li>
+    <li><a href="#">iPad</a></li>
+    <li><a href="#">iPhone</a></li>
+    <li><a href="#">Watch</a></li>
+    <li><a href="#">AirPods</a></li>
+    <li><a href="#">TV & Home</a></li>
+    <li><a href="#">Only on Apple</a></li>
+    <li><a href="#">Accessories</a></li>
+    <li><a href="#">Support</a></li>
+    <li class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></li>
+    <li class="icons"><img src="images/globalnav_bag_image__yzte50i47ciu_large.svg.svg" alt="bag-icon"></li>
+  </ul>
+  </nav>
+
+  <main>
+    <section>
+      <ul class="categories">
+        <li><img src="images/iphone_14_pro_light__dfhcc00ur2oi_large.svg.svg" alt="iphone14pro-img"><p>iPhone 14 Pro</p>
+        <p>New</p></li>
+        <li><img src="images/iphone_14_light__fwknsxkf80uq_large.svg.svg" alt="iphone-14img"><p>iPhone 14</p>
+        <p>New</p></li>
+        <li><img src="images/iphone_13_light__ewo3e0sf67o2_large.svg.svg" alt="iphone-13img"><p>iPhone 13</p></li>
+        <li><img src="images/iphone_se_light__fhg8duy6ffau_large.svg.svg" alt="iphonese-img"><p>iPhone SE</p></li>
+        <li><img src="images/iphone_12_light__cxh2ll1zwpw2_large.svg.svg" alt="iphone12-img"><p>iPhone 12</p></li>
+        <li><img src="images/iphone_compare_light__f4jj7brpbvm2_large.svg.svg" alt="compare-img"><p>Compare</p></li>
+        <li><img src="images/airpods_light__8oj157p2476a_large.svg.svg" alt="airpod-img"><p>AirPods</p></li>
+        <li><img src="images/airtag_light__cb2bmnv6aoeu_large.svg.svg" alt="airtags-img"><p>AirTags</p></li>
+        <li><img src="images/accessories_light__ed5l6ipsevqu_large.svg.svg" alt="Accessories-img"><p>Accessories</p></li>
+        <li><img src="images/iphone_apple_card_light__dtut839e76c2_large.svg.svg" alt="applecard-img"><p>Apple Card</p></li>
+        <li><img src="images/iphone_ios_light__b8s4ws8o77iq_large.svg.svg" alt="ios16-img"><p>iOS 16</p></li>
+        <li><img src="images/shop_iphone_light__b2toggskllle_large.svg.svg" alt="shopiphone-image"><p>Shop</p></li>
+
+      </ul>
+    </section>
+  </main>
