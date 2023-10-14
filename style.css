@@ -19,7 +19,7 @@ body{
   align-items: center;
 }
 .nav-list>li{
-  margin-inline: 20px;
+  margin-inline: 10px;
 }
 .nav-list a{
   display: flex;
@@ -41,7 +41,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-inline: 20px;
+  margin-inline: 10px;
 }
 .new{
   color: red;
