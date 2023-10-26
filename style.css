@@ -1,90 +1,195 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
   margin: 0;
   padding: 0;
 }
-body{
-  font-family: 'Roboto', sans-serif;
-  text-align:center;
+body,
+html {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  position: relative;
 }
-#navbar{
-  height: 44px;
-  background-color: black;
-  
+header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
-.nav-list{
+.navbar {
+  width: 100vw;
+  flex-grow: 1;
+  position: relative;
+}
+.navbar a,
+.search-icon {
+  color: rgba(255, 255, 255, 0.793) !important;
+}
+.navbar-toggler {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+  flex-shrink: 1;
+}
+.navbar-nav > li {
   display: flex;
-  justify-content: center;
-  list-style: none;
-  align-items: center;
-}
-.nav-list>li{
-  margin-inline: 20px;
-}
-.nav-list a{
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-}
-.search-icon{
-  color: white;
-}
-.categories{
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  height: 120px;
-}
-.categories>li{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-inline: 20px;
-}
-.new{
-  color: red;
-  font-size: small;
+  align-items: center !important;
 }
 
-#hero{
+.categories {
+  margin-top: 80px;
+  list-style: none;
+  height: 120px;
+  padding: 0;
+  align-items: start;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 3em;
+}
+.categories > li > a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  text-decoration: none;
+  color: #1d1d1f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px; /* 133.337% */
+  letter-spacing: -0.12px;
 }
-#hero>div{
-  margin-bottom: 20px;
+.new {
+  color: #bf4800;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.08px;
 }
-.hero-new{
-  color: #6E6E73;
+
+.product-1, .product-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.product-new {
+  color: #6e6e73;
   font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.374px;
 }
-div>h4{
-  font-size: 21px;
+.products  h4 {
+  font-size: 30px;
 }
-div>h2{
-  background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+.products  h2 {
+  font-size: 48px;
+  background: linear-gradient(
+    90deg,
+    #2ca2b4 0%,
+    #5598de 24%,
+    #7f87ff 45%,
+    #f65aad 76%,
+    #ec3d43 100%
+  );
+  font-weight: 700;
+  letter-spacing: -0.144px;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 45px;
+  font-size: 48px;
+  line-height: 65px;
 }
-.hero-buy-link{
+.product-price {
+  color: #1d1d1f;
+  font-size: 21px;
+  font-weight: 400; 
+}
+.product-buy-link {
   display: flex;
   gap: 30px;
   align-items: center;
 }
-.hero-buy-btn{
-  background-color: #0071E3;
+.product-buy-btn {
+  background-color: #0071e3;
   border: none;
-  padding:8px 16px;
+  padding: 8px 16px;
   border-radius: 20px;
   color: white;
 }
-.hero-learnmore-link{
+.product-learnmore-link {
   text-decoration: none;
-  color: #0071E3;
+  color: #06C;
+  font-size: 21px;
+  font-weight: 400;
+}
+.product-2,.product-2>.product-price{
+  background-color: black;
+  color: white;
+}
+.product-2>h2{
+  background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.product-3{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.product-3-textdata{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.product-3-textdata>div>h2{
+  background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.produtc-3-img{
+ width: 60%;
+}
+.guided-tour{
+  width: 100%;
+  background-image:url(images/iphone\ 14\ and\ 14\ pro.png);
+  color: white;
+  height: 814px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  
+}
+.guided-tour-textdata{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1em;
+  margin-left: 150px;
+  
+}
+.guided-tour-textdata h2{
+  font-size: 48px;
+}
+.guided-tour-textdata h4{
+  font-size: 30px;
+}
+.guided-tour-btn{
+  border: none;
+  border-radius: 30px;
+  padding: 5px 15px;
 }
