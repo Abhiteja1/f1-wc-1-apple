@@ -14,21 +14,32 @@ html {
   position: relative;
 }
 header {
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 999;
 }
 .navbar {
-  width: 100vw;
-  flex-grow: 1;
+  height: 65px;
+  width: 100%;
   position: relative;
 }
 a{
   text-decoration: none !important;
 }
+.navbar a{
+  font-size: 12px;
+}
 .navbar a,
 .search-icon {
   color: rgba(255, 255, 255, 0.793) !important;
+ 
+}
+.nav-container{
+ padding-inline:60px !important;
+}
+.nav-bag{
+  
 }
 .navbar-toggler {
   position: absolute;
@@ -69,7 +80,7 @@ main{
   white-space: nowrap;
   overflow-x: scroll;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 75px;
   gap: 2.5rem;
 }
 
