@@ -326,7 +326,14 @@ main{
   display: flex;
   width: 100%;
 }
-
+.headseth2{
+  color: #1D1D1F;
+  font-size: 45px;
+  padding-top: 1em;
+  font-weight: 600;
+  line-height: 52.008px; /* 108.349% */
+  letter-spacing: -0.144px;
+}
 .whyiphone-container{
   background-position: center;
   background-size: cover;
