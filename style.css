@@ -233,6 +233,7 @@ main{
 .compare-container{
   padding-top: 6em;
   text-align: center;
+  text-wrap: wrap;
 }
 .compare-container>h2, .smallbox>h2 , .magsafe-text>h2,.airtag-text>h2{
   color: #1D1D1F;
@@ -243,21 +244,26 @@ main{
   margin-bottom:1em;
   
 }
+
 .compare-4iphones{
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
   flex-wrap: wrap;
   flex-grow: 1;
 }
 .compare-2iphones{
   flex-grow: 1;
   display: flex;
-  justify-content: space-evenly;
-  gap: 3em;
+  justify-content: space-around; 
 }
+
 .compare-iphone{
-  width: 200px;
+  width: 180px;
+  text-wrap: wrap;
+}
+.compare-iphone>img{
+  width: 100%;
 }
 .compare-black-txt{
   color: #1D1D1F;
