@@ -347,14 +347,24 @@ main{
   background-position: center;
   overflow: hidden;
 }
+.switching-iphones{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 .smallbox{
-  width: 50%;
+  width: 600px;
   height: 600px;
   background: white;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+}
+.smallbox>img{
+  width: 100%;
 }
 .magsafe-section, .apple-one-section{
   display: flex;
