@@ -235,7 +235,7 @@ main{
   padding-top: 6em;
   text-align: center;
 }
-.compare-container>h2, .smallbox>h2{
+.compare-container>h2, .smallbox>h2 , .magsafe-text>h2,.airtag-text>h2{
   color: #1D1D1F;
   font-size: 45px;
   font-weight: 500;
@@ -287,6 +287,14 @@ main{
   font-weight: 700;
   line-height: 100.009px; /* 111.121% */
   letter-spacing: -0.27px;
+}
+.sec-head2{
+  color: #1D1D1F;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: -0.28px;
+  margin:100px 0px 60px 0px;
 }
 .waytobuyh2, .os-16>h2{
   color: #1D1D1F;
@@ -347,6 +355,37 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.magsafe-section, .apple-one-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.magsafe-text,.airtag-text, .apple-one-text{
+  width: 330px;
+}
+.airtag-section{
+  display: flex;
+  align-items: center;
+}
+.magsafe-text>p,.airtag-text>p{
+  color: #1D1D1F;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29.001px; /* 138.1% */
+  letter-spacing: 0.231px;
+}
+.apple-one-section{
+  height: 500px;
+}
+.apple-one-text>p{
+  color: #1D1D1F;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px; /* 114.286% */
+  letter-spacing: 0.196px;
 }
 .footer{
   display: flex;
