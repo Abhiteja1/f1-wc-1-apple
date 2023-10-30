@@ -67,6 +67,8 @@ main{
   overflow: hidden;
   margin-top: 20px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .categories {
   width: 95vw;
