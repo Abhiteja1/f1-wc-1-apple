@@ -343,8 +343,8 @@ main{
   letter-spacing: -0.144px;
 }
 .whyiphone-container{
+  display: flex;
   background-position: center;
-  background-size: cover;
   overflow: hidden;
 }
 .smallbox{
@@ -365,6 +365,9 @@ main{
 }
 .magsafe-text,.airtag-text, .apple-one-text{
   width: 330px;
+}
+#airpods{
+  display: flex;
 }
 .apple-one-section{
  height: 600px !important;
@@ -394,6 +397,7 @@ main{
   width: 100%;
 }
 .footer{
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -402,8 +406,7 @@ main{
 }
 .footer-1{
   width: 200px;
-  flex-shrink: 0;
-  
+  flex-shrink: 0; 
 }
 .foot-cards{
   display: flex;
@@ -457,3 +460,4 @@ main{
   border-left: 0.5px solid #4242455e;
   height: 14px;
 }
+
