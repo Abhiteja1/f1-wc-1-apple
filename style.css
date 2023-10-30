@@ -257,6 +257,7 @@ main{
   flex-grow: 1;
   display: flex;
   justify-content: space-evenly;
+  gap: 3em;
 }
 .compare-iphone{
   width: 200px;
