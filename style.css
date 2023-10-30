@@ -368,6 +368,9 @@ main{
 .magsafe-text,.airtag-text, .apple-one-text{
   width: 330px;
 }
+.apple-one-section{
+ height: 600px !important;
+}
 .airtag-section{
   display: flex;
   align-items: center;
@@ -389,6 +392,9 @@ main{
   line-height: 32px; /* 114.286% */
   letter-spacing: 0.196px;
 }
+.research>img{
+  width: 100%;
+}
 .footer{
   display: flex;
   justify-content: space-between;
@@ -402,6 +408,19 @@ main{
   width: 200px;
   flex-shrink: 0;
   
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.cards>div{
+  width: 600px;
+  box-sizing: border-box;
+}
+.cards img{
+  width: 100%;
 }
 .footer-1 p{
   color: #1D1D1F;
