@@ -405,17 +405,17 @@ main{
   flex-shrink: 0;
   
 }
-.cards{
+.foot-cards{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1em;
 }
-.cards>div{
+.foot-cards>div{
   width: 600px;
   box-sizing: border-box;
 }
-.cards img{
+.foot-cards img{
   width: 100%;
 }
 .footer-1 p{
